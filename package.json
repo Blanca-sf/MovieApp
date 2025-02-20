@@ -1,0 +1,30 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@gluestack-style/react": "^1.0.57",
+    "@gluestack-ui/config": "^1.1.20",
+    "@gluestack-ui/themed": "^1.1.65",
+    "axios": "^1.7.9",
+    "expo": "~52.0.35",
+    "expo-status-bar": "~2.0.1",
+    "qs": "^6.14.0",
+    "react": "18.3.1",
+    "react-dom": "^19.0.0",
+    "react-native": "0.76.7",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-svg": "^15.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
